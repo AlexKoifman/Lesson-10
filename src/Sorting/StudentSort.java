@@ -27,7 +27,8 @@ public class StudentSort extends javax.swing.JFrame {
         list = new DefaultListModel();
         lstStudents.setModel(list);
     }
-
+//modifed to work with ISS Students
+    
     public static void selectionSort(ISSStudent[] a) {
         for (int i = 0; i < a.length - 1; i++) {
             int minIndex = findMinimum(a, i);
